@@ -11,7 +11,7 @@ const menuPage = () =>{
 
     itTitle.textContent = 'Spaghetti'
     text.textContent ='Spaghetti pasta served with marinara and garlic bread(Not unlimited).';
-    itImage.src = '../src/Spaghetti.jpg'
+    itImage.src = '../../src/Spaghetti.jpg'
 
     item.appendChild(itTitle);
     item.appendChild(text);
