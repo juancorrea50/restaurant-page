@@ -1,11 +1,14 @@
-import initLoad from './initialLoad';
+import initLoad from './initialLoad.js';
 import contactPage from './contact';
 import menuPage from './menu';
+import sImage from './Spaghetti.jpg';
+import rImage from './restImage.jpg';
 import './styles.css';
 
 
 
 function createElement(){
+    //Import variables
     const content = document.getElementById('content');
     const init = initLoad();
     const mPage = menuPage();
@@ -32,6 +35,9 @@ function createElement(){
     headerList.appendChild(menu);
     headerList.appendChild(contact);
     header.appendChild(headerList);
+
+    mPage.firstChild.lastChild.src = sImage;
+    init.lastChild.src = rImage;
 
     document.body.appendChild(header);
     content.appendChild(init);

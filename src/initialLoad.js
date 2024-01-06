@@ -10,7 +10,7 @@ const initLoad = () =>{
     //Change text content and image source
     title.textContent = "Giovanni's Italian Cuisine";
     desc.textContent = "Giovanni's is an excellent choice for your next meal. All ingredients are locally sourced and brought to you on a silver platter(literally)";
-    image.src = '../src/restImage.jpg';
+    
     
     home.appendChild(title);
     home.appendChild(desc);
