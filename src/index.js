@@ -78,7 +78,3 @@ function createElement(){
     return content;
 }
 document.body.appendChild(createElement());
-/**
- * <h1>Giovanni's Italian Cuisine</h1>
-        <p>Giovanni's is an excellent choice for your next meal. All ingredients are locally sourced and brought to you on a silver platter(literally)</p>
- */
