@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 20px;
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#content > div > .person{
+    border: solid black 2px;
+}
+#content > div > .item{
+    border: solid blue 2px; 
+}
+
+header > ul{
+    display: flex;
+    align-items: end;
+    gap: 50px;
+    padding-bottom: 0px;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: solid black 2px;
+}
+header > ul > li:hover{
+    cursor: pointer;
+}
+header > ul > #selected{
+    background-color: white;
+    border-bottom: none;
+}
